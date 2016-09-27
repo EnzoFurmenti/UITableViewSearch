@@ -1,5 +1,5 @@
 //
-//  SectionMonth.h
+//  Section.h
 //  UITableViewSearch
 //
 //  Created by EnzoF on 25.09.16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SectionMonth : NSObject
+@interface Section : NSObject
 
 @property (strong,nonatomic) NSArray *arrayItems;
 @property (strong,nonatomic) NSString *titleOfHeader;

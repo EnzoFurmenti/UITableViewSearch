@@ -15,7 +15,7 @@
 		966A78551D980506007E0196 /* TableVIewSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A78541D980506007E0196 /* TableVIewSearchController.m */; };
 		966A78581D9805A8007E0196 /* StudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A78571D9805A8007E0196 /* StudentCell.m */; };
 		966A785C1D980632007E0196 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A785B1D980632007E0196 /* Student.m */; };
-		966A78601D985E7C007E0196 /* SectionMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A785F1D985E7C007E0196 /* SectionMonth.m */; };
+		966A78601D985E7C007E0196 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A785F1D985E7C007E0196 /* Section.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		966A78571D9805A8007E0196 /* StudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCell.m; sourceTree = "<group>"; };
 		966A785A1D980632007E0196 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
 		966A785B1D980632007E0196 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
-		966A785E1D985E7C007E0196 /* SectionMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionMonth.h; sourceTree = "<group>"; };
-		966A785F1D985E7C007E0196 /* SectionMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionMonth.m; sourceTree = "<group>"; };
+		966A785E1D985E7C007E0196 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Section.h; path = ../Section.h; sourceTree = "<group>"; };
+		966A785F1D985E7C007E0196 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Section.m; path = ../Section.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,6 @@
 		966A78301D980374007E0196 = {
 			isa = PBXGroup;
 			children = (
-				966A785E1D985E7C007E0196 /* SectionMonth.h */,
-				966A785F1D985E7C007E0196 /* SectionMonth.m */,
 				966A78531D980506007E0196 /* TableVIewSearchController.h */,
 				966A78541D980506007E0196 /* TableVIewSearchController.m */,
 				966A783B1D980374007E0196 /* UITableViewSearch */,
@@ -81,11 +79,13 @@
 			children = (
 				966A785D1D980649007E0196 /* interFace */,
 				966A78591D9805B0007E0196 /* cell */,
+				966A783F1D980374007E0196 /* AppDelegate.h */,
+				966A78401D980374007E0196 /* AppDelegate.m */,
+				966A785E1D985E7C007E0196 /* Section.h */,
+				966A785F1D985E7C007E0196 /* Section.m */,
 				966A785A1D980632007E0196 /* Student.h */,
 				966A785B1D980632007E0196 /* Student.m */,
 				966A783D1D980374007E0196 /* main.m */,
-				966A783F1D980374007E0196 /* AppDelegate.h */,
-				966A78401D980374007E0196 /* AppDelegate.m */,
 				966A78481D980374007E0196 /* Assets.xcassets */,
 				966A784D1D980374007E0196 /* Info.plist */,
 			);
@@ -184,7 +184,7 @@
 			files = (
 				966A78551D980506007E0196 /* TableVIewSearchController.m in Sources */,
 				966A78411D980374007E0196 /* AppDelegate.m in Sources */,
-				966A78601D985E7C007E0196 /* SectionMonth.m in Sources */,
+				966A78601D985E7C007E0196 /* Section.m in Sources */,
 				966A785C1D980632007E0196 /* Student.m in Sources */,
 				966A783E1D980374007E0196 /* main.m in Sources */,
 				966A78581D9805A8007E0196 /* StudentCell.m in Sources */,
@@ -338,6 +338,7 @@
 				966A78521D980374007E0196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
